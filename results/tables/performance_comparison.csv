@@ -1,0 +1,7 @@
+model,test_set,accuracy,precision_weighted,recall_weighted,f1_weighted,fpr_normal,f1_macro,fit_seconds,predict_holdout_seconds,predict_official_seconds
+Random Forest,20 % holdout (KDDTrain+),0.9926,0.9926,0.9926,0.9926,0.0073,0.952,2.249,0.039,0.039
+Random Forest,KDDTest+ (official),0.7203,0.7819,0.7203,0.6845,0.0711,0.5039,2.249,0.039,0.039
+SVM (RBF),20 % holdout (KDDTrain+),0.9463,0.9605,0.9463,0.9507,0.0836,0.7055,111.991,40.627,36.442
+SVM (RBF),KDDTest+ (official),0.7155,0.7292,0.7155,0.6979,0.0901,0.5424,111.991,40.627,36.442
+Decision Tree,20 % holdout (KDDTrain+),0.991,0.991,0.991,0.991,0.0095,0.9421,0.864,0.002,0.001
+Decision Tree,KDDTest+ (official),0.7123,0.7657,0.7123,0.6782,0.0738,0.5152,0.864,0.002,0.001

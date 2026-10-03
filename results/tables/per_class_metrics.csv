@@ -1,0 +1,31 @@
+model,test_set,class,precision,recall,f1,support
+Random Forest,20 % holdout (KDDTrain+),DoS,0.9931,0.9964,0.9947,9186
+Random Forest,20 % holdout (KDDTrain+),Normal,0.9941,0.9927,0.9934,13469
+Random Forest,20 % holdout (KDDTrain+),Probe,0.9845,0.9828,0.9837,2331
+Random Forest,20 % holdout (KDDTrain+),R2L,0.9635,0.9296,0.9463,199
+Random Forest,20 % holdout (KDDTrain+),U2R,0.8889,0.8,0.8421,10
+Random Forest,KDDTest+ (official),DoS,0.8962,0.7503,0.8168,7460
+Random Forest,KDDTest+ (official),Normal,0.6267,0.9289,0.7485,9711
+Random Forest,KDDTest+ (official),Probe,0.8361,0.5754,0.6817,2421
+Random Forest,KDDTest+ (official),R2L,0.9694,0.0769,0.1426,2885
+Random Forest,KDDTest+ (official),U2R,0.5,0.0746,0.1299,67
+SVM (RBF),20 % holdout (KDDTrain+),DoS,0.982,0.9814,0.9817,9186
+SVM (RBF),20 % holdout (KDDTrain+),Normal,0.9863,0.9164,0.9501,13469
+SVM (RBF),20 % holdout (KDDTrain+),Probe,0.7752,0.9824,0.8666,2331
+SVM (RBF),20 % holdout (KDDTrain+),R2L,0.4353,0.9296,0.5929,199
+SVM (RBF),20 % holdout (KDDTrain+),U2R,0.0738,0.9,0.1364,10
+SVM (RBF),KDDTest+ (official),DoS,0.8895,0.7016,0.7845,7460
+SVM (RBF),KDDTest+ (official),Normal,0.6578,0.9099,0.7636,9711
+SVM (RBF),KDDTest+ (official),Probe,0.7003,0.5869,0.6387,2421
+SVM (RBF),KDDTest+ (official),R2L,0.5929,0.2135,0.314,2885
+SVM (RBF),KDDTest+ (official),U2R,0.15,0.3582,0.2115,67
+Decision Tree,20 % holdout (KDDTrain+),DoS,0.9919,0.9966,0.9942,9186
+Decision Tree,20 % holdout (KDDTrain+),Normal,0.9936,0.9905,0.992,13469
+Decision Tree,20 % holdout (KDDTrain+),Probe,0.9785,0.9785,0.9785,2331
+Decision Tree,20 % holdout (KDDTrain+),R2L,0.92,0.9246,0.9223,199
+Decision Tree,20 % holdout (KDDTrain+),U2R,1.0,0.7,0.8235,10
+Decision Tree,KDDTest+ (official),DoS,0.8853,0.7335,0.8023,7460
+Decision Tree,KDDTest+ (official),Normal,0.6243,0.9262,0.7459,9711
+Decision Tree,KDDTest+ (official),Probe,0.7988,0.5444,0.6475,2421
+Decision Tree,KDDTest+ (official),R2L,0.9103,0.0915,0.1663,2885
+Decision Tree,KDDTest+ (official),U2R,0.5294,0.1343,0.2143,67

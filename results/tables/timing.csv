@@ -1,0 +1,4 @@
+model,fit_seconds,predict_holdout_seconds,predict_official_seconds,n_train,n_holdout,n_official,predict_holdout_us_per_row
+random_forest,2.249,0.039,0.039,269370,25195,22544,1.54
+svm_rbf,111.991,40.627,36.442,269370,25195,22544,1612.49
+decision_tree,0.864,0.002,0.001,269370,25195,22544,0.08

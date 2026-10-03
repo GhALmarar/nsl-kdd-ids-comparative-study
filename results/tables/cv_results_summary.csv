@@ -1,0 +1,4 @@
+model,test_accuracy_mean,test_accuracy_std,test_precision_weighted_mean,test_precision_weighted_std,test_recall_weighted_mean,test_recall_weighted_std,test_f1_weighted_mean,test_f1_weighted_std,fit_time_mean,fit_time_std,score_time_mean,score_time_std
+decision_tree,0.9955,0.0005,0.9955,0.0005,0.9955,0.0005,0.9955,0.0005,1.3553,0.0395,0.011,0.0024
+random_forest,0.997,0.0003,0.997,0.0003,0.997,0.0003,0.997,0.0003,24.0512,0.2445,0.2171,0.0333
+svm_rbf,0.9556,0.0013,0.9561,0.0013,0.9556,0.0013,0.9555,0.0013,596.7495,58.2028,68.7401,13.8069
